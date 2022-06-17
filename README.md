@@ -34,4 +34,5 @@
   - twitter.svg
   - instagram.svg
   - github.svg
-
+- The social links should go to the following URL
+  - https://en.wikipedia.org/wiki/Bruce_Lee
