@@ -1,0 +1,6 @@
+.pricing-plan{
+    width:300px;
+    border-radius:25px;
+
+    
+}

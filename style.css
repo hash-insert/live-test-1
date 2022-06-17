@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+   
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    background-color:rgb(187,187,245) ;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 350px;
+    height: 500px;
+    box-shadow: 0 0 40px 20px rgba(0,0,0,0/26);
+}
+.inner-box{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.card-front,card-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-color: lightblue;
+    padding: 55px;
+    box-sizing: border-box;
+
+}
+ h1{
+    text-align: center;
+    justify-content: center;
+    color: blue;
+    border-radius: 20px;
+    margin: 2px;
+}
+h3{
+    color: blue;
+    text-align: center;
+    
+}
+
+
+.input-box{
+    width: 100%;
+    background: transparent;
+    border: 1px solid black;
+    margin: 6px 0;
+    height: 32px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    color: blue;
+}
+::placeholder{
+    color: rgb(91, 23, 140);
+    font-size: 12px;
+}
+.one{
+    width: 100%;
+    background-color: blue;
+    border: 1px solid black;
+    margin: 35px 0 10px;
+    height: 32px;
+    font-size: 12px;
+    border-radius: 0 10px;
+    box-sizing: border-box;
+    color:black;
+}
+button{
+    width: 100%;
+    background: transparent;
+    border: 1px solid black;
+    margin: 35px 0 10px;
+    height: 32px;
+    font-size: 12px;
+    border-radius: 0 10px;
+    box-sizing: border-box;
+    background-color: blue;
+}
+
