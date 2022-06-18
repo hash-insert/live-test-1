@@ -10,8 +10,10 @@
 </head>
 
 <body>
+    <!-- Page Flex Container -->
     <div class="min-h-screen flex flex-col">
 
+        <!-- Navigation section -->
         <header class="flex flex-col gap-4 sm:flex-row justify-between px-12 py-4 items-center bg-blue-200">
             <a href="index.html">
                 <img class="h-12" src="img/logo.png" alt="HashInsert">
@@ -23,16 +25,27 @@
             </div>
         </header>
 
-        <!-- Write your code below -->
+        <!-- Form Container -->
         <div class="flex flex-1 items-center justify-center h-full">
-            <form class="flex flex-col justify-center m-4 p-12 w-1/3 gap-4 bg-white shadow-xl rounded-lg">
+            <!-- Sign In form -->
+            <form class="flex flex-col justify-center m-4 p-12 w-1/3 gap-4 bg-white shadow-xl rounded-lg" action="#"
+                method="post">
+                <!-- Header of the form -->
                 <h1 class="text-center my-4 text-2xl font-semibold text-gray-800">Sign In</h1>
+
+                <!-- Inputs - Email and Password -->
                 <input class="p-4 bg-gray-50 rounded-md text-sm hover:outline" type="email" name="email"
                     placeholder="Email" required>
                 <input class="p-4 bg-gray-50 rounded-md text-sm hover:outline" type="password" name="password"
                     placeholder="Password">
+
+                <!-- Button with Sign In Submit -->
                 <button class="bg-black text-white p-4 rounded-lg" type="submit">Sign In</button>
+
+                <!-- Reference link for trouble logging -->
                 <a href="#" class="my-2 text-center text-sm text-blue-500 font-semibold">Have trouble logging in?</a>
+
+                <!-- Button for sign up -->
                 <button class="p-4 rounded border hover:outline">Sign up</button>
             </form>
         </div>
