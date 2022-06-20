@@ -1,0 +1,44 @@
+.signin-form{
+    height: 250px;
+    width: 300px;
+    box-shadow: 10px 10px 10px 10px whitesmoke;
+
+}
+form h3 {
+    text-align: center;
+    padding-top: 10px;
+}
+form a{
+    color: blue;
+}
+button sign Up{
+    text-align: center;
+}
+form input{
+    padding-left: 10px;
+}
+
+button .si{
+    background-color: black;
+    display: block;
+}
+
+
+/* task-3 */
+.main{
+    height: 400px;
+    width: 200px;
+    background-color: lightblue;
+    text-align: center;
+}
+.card{
+    width: 70px;
+}
+.sm{
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+}
+.info{
+    justify-content: space-evenly;
+}
