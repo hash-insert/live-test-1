@@ -1,0 +1,46 @@
+.email{
+    border-radius: 5px;
+    margin: 10px;
+    border: 1px solid ;
+    font-size: medium;
+    width: 17rem;
+    
+}
+.signin{
+    background-color: black;
+    color: aliceblue;
+    margin: 10px;
+    width: 17rem;  
+    border-radius: 10px;
+    height: 3rem; 
+    font-size: medium;
+}
+.signup{
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 10px;
+    width: 17rem;  
+    border-radius: 10px;
+    height: 3rem; 
+    font-size: medium;
+}
+.headingsh1{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 500;
+}
+.container{
+    
+    display: flex;
+    
+    
+}
+.par{
+    text-align: center;
+}
+.basic{
+    width: 18rem;
+}
+.pro{
+    width: 18rem;
+}
