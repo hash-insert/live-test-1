@@ -10,18 +10,74 @@
 </head>
 
 <body>
-    <header class="flex justify-between px-12 py-4 items-center bg-blue-200">
-        <a href="index.html">
-            <img class="h-12" src="img/logo.png" alt="HashInsert">
-        </a>
-        <div class="flex gap-12">
-            <a href="task-1.html" class="font-semibold hover:text-indigo-600">Sign In</a>
-            <a href="task-2.html" class="font-semibold hover:text-indigo-600">Pricing</a>
-            <a href="task-3.html" class="font-semibold hover:text-indigo-600">About</a>
-        </div>
-    </header>
+    <!-- Page Flex Container -->
+    <div class="min-h-screen flex flex-col">
 
-    <!-- Write your code below -->
+        <!-- Navigation section -->
+        <header class="flex justify-between px-12 py-4 items-center bg-blue-200">
+            <a href="index.html">
+                <img class="h-12" src="img/logo.png" alt="HashInsert">
+            </a>
+            <div class="flex gap-12">
+                <a href="task-1.html" class="font-semibold hover:text-indigo-600">Sign In</a>
+                <a href="task-2.html" class="font-semibold hover:text-indigo-600">Pricing</a>
+                <a href="task-3.html" class="font-semibold hover:text-indigo-600">About</a>
+            </div>
+        </header>
+
+        <!-- Card Container -->
+        <div class="flex flex-col items-center">
+            <h1 class="my-4 text-4xl font-semibold text-gray-800">Pricing</h1>
+            <p class="my-4 text-xl font-light">Plans for everyone!</p>
+
+            <!-- Basic Card -->
+            <div class="flex flex-col md:flex-row">
+                <div class="flex flex-col w-96 justify-between  m-4 p-8 bg-white shadow-xl rounded-lg">
+                    <div class="flex flex-col gap-4">
+                        <h2 class="text-center text-3xl font-semibold">Basic</h2>
+                        <p class="text-center">For anyone to get started</p>
+                        <p class="text-center"><span class="text-4xl font-semibold">$10</span>/month</p>
+                        <div class="flex flex-col gap-2">
+                            <div class="flex items-center gap-2">
+                                <img src="img/check.svg" alt="check" class="w-4 h-4">
+                                <p>1 hour per day</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img src="img/check.svg" alt="check" class="w-4 h-4">
+                                <p>10 sessions</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="py-4 px-12 rounded outline mt-8 hover:shadow-lg">Get started</button>
+                </div>
+
+                <!-- Pro Card -->
+                <div class="flex flex-col w-96 bg-white justify-center gap-4 m-4 p-8 shadow-xl rounded-lg">
+                    <h2 class="text-center text-3xl font-semibold">Pro</h2>
+                    <p class="text-center">For the professionals</p>
+                    <p class="text-center"><span class="text-4xl font-semibold">$29</span>/month</p>
+                    <div class="flex flex-col gap-2">
+                        <div class="flex items-center gap-2">
+                            <img src="img/check.svg" alt="check" class="w-4 h-4">
+                            <p>2 hours per day</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <img src="img/check.svg" alt="check" class="w-4 h-4">
+                            <p>20 sessions</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <img src="img/check.svg" alt="check" class="w-4 h-4">
+                            <p>Personal trainer</p>
+                        </div>
+                    </div>
+                    <button class="py-4 px-12 justify-end rounded outline mt-8 hover:shadow-lg">Get started</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
 
 </body>
 
